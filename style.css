@@ -220,6 +220,8 @@
   font-size: 24px;
   font-size: 600;
   margin-bottom: 16px;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
 .card .card-info p {
@@ -227,6 +229,8 @@
   line-height: 20px;
   color: #627382;
   margin-bottom: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 .notes-card .card .card-img {
   padding: 30px;
@@ -374,3 +378,44 @@
 }
 
 /* early access section design ends here */
+
+/* footer section design starts here */
+
+#footer {
+  max-width: 1600px;
+  height: 400px;
+  width: 100%;
+  margin: 0 auto;
+  background-color: #001931;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 120px;
+  gap: 800px;
+}
+
+#footer .social-heading h1 {
+  color: #ffffff;
+  font-size: 20px;
+  line-height: 28px;
+  font-weight: 500;
+  margin-bottom: 16px;
+}
+
+.social .social-icons a {
+  margin-right: 16px;
+}
+
+.copyright-text p {
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  color: #fafafa;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+/* footer section design ends here */
