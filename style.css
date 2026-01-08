@@ -86,7 +86,7 @@
   text-align: center;
 }
 
-.early-access-btn {
+.get-early-access-btn {
   display: inline-flex;
   align-items: center;
   gap: 8px;
@@ -99,6 +99,11 @@
   font-weight: 500;
   margin-top: 50px;
   margin-bottom: 16px;
+}
+
+.get-early-access-btn:hover {
+  transform: scale(1.1);
+  transition: 0.5s;
 }
 
 .banner-content .banner-text .banner-heading-1 {
@@ -296,3 +301,76 @@
 }
 
 /* second brain section design ends here */
+
+/* early access section design starts here */
+
+#early-access {
+  max-width: 1600px;
+  width: 100%;
+  margin: 0 auto;
+  margin-bottom: 120px;
+}
+
+.early-access-body {
+  max-width: 1360px;
+  height: 400px;
+  margin: 0 auto;
+  background-color: #f7f6f2;
+}
+
+.early-access-content {
+  padding: 80px 120px 80px 120px;
+}
+
+.early-access-content .early-access-heading h1 {
+  text-align: center;
+  font-size: 40px;
+  font-weight: bold;
+  margin-bottom: 16px;
+}
+
+.early-access-content .early-access-info p {
+  text-align: center;
+  font-size: 16px;
+  line-height: 24px;
+  color: #627382;
+}
+
+.early-access-content .early-access-info {
+  margin-bottom: 24px;
+}
+
+.early-access-content .early-access-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 16px;
+}
+
+.early-access-btn {
+  display: inline-flex;
+  gap: 8px;
+  border-radius: 5px;
+  font-size: 16px;
+  font-weight: 600;
+  align-items: center;
+  justify-content: center;
+  padding: 16px;
+  color: white;
+  background-color: #469165;
+  border: none;
+}
+
+.early-access-btn:hover {
+  transform: scale(1.1);
+  transition: 0.5s;
+}
+
+.early-access-content .early-access-info-2 p {
+  text-align: center;
+  font-size: 16px;
+  line-height: 20px;
+  color: #627382;
+}
+
+/* early access section design ends here */
