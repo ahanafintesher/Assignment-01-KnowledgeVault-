@@ -172,7 +172,6 @@
   max-width: 1600px;
   width: 100%;
   margin: 0 auto;
-  margin-bottom: 120px;
 }
 
 .notes-heading {
@@ -242,3 +241,58 @@
 }
 
 /* notes section design starts here */
+
+/* second brain section design starts here */
+
+#second-brain-section {
+  max-width: 1600px;
+  width: 100%;
+  margin: 0 auto;
+
+  margin-top: 120px;
+  margin-bottom: 120px;
+}
+
+.second-brain-section-parent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 60px;
+}
+
+.second-brain-section-text .short-heading p {
+  font-size: 16px;
+  line-height: 20px;
+  color: #469165;
+  margin-bottom: 16px;
+}
+
+.second-brain-section-text .second-brain-section-heading h1 {
+  font-size: 48px;
+  font-weight: bold;
+}
+
+.second-brain-section-text .second-brain-section-heading {
+  margin-bottom: 16px;
+}
+
+.second-brain-section-text .second-brain-section-info p {
+  font-size: 16px;
+  line-height: 20px;
+  color: #627382;
+}
+
+.second-brain-section-text .second-brain-section-info {
+  margin-bottom: 40px;
+}
+
+.second-brain-section-points ul li {
+  list-style: none;
+  text-align: left;
+  color: #001931;
+  font-size: 16px;
+  line-height: 20px;
+  margin-bottom: 16px;
+}
+
+/* second brain section design ends here */
